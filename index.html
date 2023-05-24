@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Our Team</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/boxicons@2.1.1/dist/boxicons.js"></script>
+</head>
+
+<body>
+
+    <div class="header">
+        <h1>Pralay Tajane</h1>
+    </div>
+
+    <!-- set of Teams Start -->
+    <div class="card">
+          <img src="./img/logo.jpg" />
+          <h1>@swing_trader</h1>
+          <ul class="social">
+              <li>
+                  <a href="#">
+                      <box-icon name='whatsapp' type='logo' animation='tada' color='#ffffff'></box-icon>
+                  </a>
+              </li>
+              <li>
+                  <a href="#">
+                      <box-icon name='linkedin-square' type='logo' animation='tada' color='#ffffff'></box-icon>
+                  </a>
+              </li>
+              <li>
+                  <a href="#">
+                      <box-icon name='mail-send' animation='tada' color='#ffffff'></box-icon>
+                  </a>
+              </li>
+          </ul>
+      </div>
+    </div>
+    <!-- set of Teams Ends -->
+
+    <!--Vanilla tilt-->
+    <script type="text/javascript" src="vanilla-tilt.js"></script>
+    <script>
+        VanillaTilt.init(document.querySelectorAll(".card"), {
+            max: 2,
+            speed: 200,
+            glare: true,
+            "max-glare": 0.5,
+        });
+    </script>
+</body>
+
+</html>
